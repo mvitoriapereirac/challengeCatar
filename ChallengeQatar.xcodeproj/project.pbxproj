@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC4B2CFC293BC3CE0026CDBE /* ColoredButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B2CFB293BC3CE0026CDBE /* ColoredButton.swift */; };
+		BC4B2CFE293BCDCC0026CDBE /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B2CFD293BCDCC0026CDBE /* HomePageView.swift */; };
+		BCF2F5912932CA82005625C2 /* ChallengeQatar Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BCF2F5902932CA82005625C2 /* ChallengeQatar Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BCF2F5962932CA82005625C2 /* ChallengeQatarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF2F5952932CA82005625C2 /* ChallengeQatarApp.swift */; };
+		BCF2F5982932CA82005625C2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF2F5972932CA82005625C2 /* OnboardingView.swift */; };
+		BCF2F59A2932CA82005625C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF2F5992932CA82005625C2 /* Assets.xcassets */; };
+		BCF2F59D2932CA82005625C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF2F59C2932CA82005625C2 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCF2F5922932CA82005625C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF2F5842932CA81005625C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF2F58F2932CA82005625C2;
+			remoteInfo = "ChallengeQatar Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCF2F5A32932CA82005625C2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BCF2F5912932CA82005625C2 /* ChallengeQatar Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC4B2CFB293BC3CE0026CDBE /* ColoredButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredButton.swift; sourceTree = "<group>"; };
+		BC4B2CFD293BCDCC0026CDBE /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		BCF2F58A2932CA82005625C2 /* ChallengeQatar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeQatar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF2F5902932CA82005625C2 /* ChallengeQatar Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChallengeQatar Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF2F5952932CA82005625C2 /* ChallengeQatarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeQatarApp.swift; sourceTree = "<group>"; };
+		BCF2F5972932CA82005625C2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		BCF2F5992932CA82005625C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCF2F59C2932CA82005625C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCF2F58D2932CA82005625C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCF2F5832932CA81005625C2 = {
+			isa = PBXGroup;
+			children = (
+				BCF2F5942932CA82005625C2 /* ChallengeQatar Watch App */,
+				BCF2F58B2932CA82005625C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCF2F58B2932CA82005625C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCF2F58A2932CA82005625C2 /* ChallengeQatar.app */,
+				BCF2F5902932CA82005625C2 /* ChallengeQatar Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCF2F5942932CA82005625C2 /* ChallengeQatar Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BCF2F5952932CA82005625C2 /* ChallengeQatarApp.swift */,
+				BCF2F5972932CA82005625C2 /* OnboardingView.swift */,
+				BCF2F5992932CA82005625C2 /* Assets.xcassets */,
+				BCF2F59B2932CA82005625C2 /* Preview Content */,
+				BC4B2CFD293BCDCC0026CDBE /* HomePageView.swift */,
+				BC4B2CFB293BC3CE0026CDBE /* ColoredButton.swift */,
+			);
+			path = "ChallengeQatar Watch App";
+			sourceTree = "<group>";
+		};
+		BCF2F59B2932CA82005625C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCF2F59C2932CA82005625C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCF2F5892932CA81005625C2 /* ChallengeQatar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF2F5A42932CA82005625C2 /* Build configuration list for PBXNativeTarget "ChallengeQatar" */;
+			buildPhases = (
+				BCF2F5882932CA81005625C2 /* Resources */,
+				BCF2F5A32932CA82005625C2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF2F5932932CA82005625C2 /* PBXTargetDependency */,
+			);
+			name = ChallengeQatar;
+			productName = ChallengeQatar;
+			productReference = BCF2F58A2932CA82005625C2 /* ChallengeQatar.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		BCF2F58F2932CA82005625C2 /* ChallengeQatar Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF2F5A02932CA82005625C2 /* Build configuration list for PBXNativeTarget "ChallengeQatar Watch App" */;
+			buildPhases = (
+				BCF2F58C2932CA82005625C2 /* Sources */,
+				BCF2F58D2932CA82005625C2 /* Frameworks */,
+				BCF2F58E2932CA82005625C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChallengeQatar Watch App";
+			productName = "ChallengeQatar Watch App";
+			productReference = BCF2F5902932CA82005625C2 /* ChallengeQatar Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCF2F5842932CA81005625C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BCF2F5892932CA81005625C2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					BCF2F58F2932CA82005625C2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BCF2F5872932CA81005625C2 /* Build configuration list for PBXProject "ChallengeQatar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCF2F5832932CA81005625C2;
+			productRefGroup = BCF2F58B2932CA82005625C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCF2F5892932CA81005625C2 /* ChallengeQatar */,
+				BCF2F58F2932CA82005625C2 /* ChallengeQatar Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCF2F5882932CA81005625C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF2F58E2932CA82005625C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF2F59D2932CA82005625C2 /* Preview Assets.xcassets in Resources */,
+				BCF2F59A2932CA82005625C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCF2F58C2932CA82005625C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF2F5982932CA82005625C2 /* OnboardingView.swift in Sources */,
+				BC4B2CFE293BCDCC0026CDBE /* HomePageView.swift in Sources */,
+				BC4B2CFC293BC3CE0026CDBE /* ColoredButton.swift in Sources */,
+				BCF2F5962932CA82005625C2 /* ChallengeQatarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCF2F5932932CA82005625C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF2F58F2932CA82005625C2 /* ChallengeQatar Watch App */;
+			targetProxy = BCF2F5922932CA82005625C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BCF2F59E2932CA82005625C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCF2F59F2932CA82005625C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BCF2F5A12932CA82005625C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChallengeQatar Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9569K2P89M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ChallengeQatar;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.mvpc.ChallengeQatar.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		BCF2F5A22932CA82005625C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChallengeQatar Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9569K2P89M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ChallengeQatar;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.mvpc.ChallengeQatar.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		BCF2F5A52932CA82005625C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9569K2P89M;
+				INFOPLIST_KEY_CFBundleDisplayName = ChallengeQatar;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.mvpc.ChallengeQatar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BCF2F5A62932CA82005625C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9569K2P89M;
+				INFOPLIST_KEY_CFBundleDisplayName = ChallengeQatar;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.cin.academy.mvpc.ChallengeQatar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCF2F5872932CA81005625C2 /* Build configuration list for PBXProject "ChallengeQatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF2F59E2932CA82005625C2 /* Debug */,
+				BCF2F59F2932CA82005625C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF2F5A02932CA82005625C2 /* Build configuration list for PBXNativeTarget "ChallengeQatar Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF2F5A12932CA82005625C2 /* Debug */,
+				BCF2F5A22932CA82005625C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF2F5A42932CA82005625C2 /* Build configuration list for PBXNativeTarget "ChallengeQatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF2F5A52932CA82005625C2 /* Debug */,
+				BCF2F5A62932CA82005625C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCF2F5842932CA81005625C2 /* Project object */;
+}
